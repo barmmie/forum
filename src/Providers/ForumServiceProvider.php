@@ -38,7 +38,6 @@ class ForumServiceProvider extends ServiceProvider
         );
 
         $this->commands('command.forum.table');
-        include __DIR__ . '/../routes.php';
     }
 
     /**
